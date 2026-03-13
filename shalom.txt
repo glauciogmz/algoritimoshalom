@@ -1,0 +1,13 @@
+n1=int(input("digite o primeiro número:"))
+n2=int(input("digite o segundo número:"))
+op=(int(input("digite 1 para a soma, digite 2 para sub,\ndigite 3 para multi e digite 4 para div:")))
+if op == 1:
+    print(f"seu resultado é: {n1 + n2}")
+elif op == 2:
+    print(f"seu resultado é: {n1 - n2}")
+elif op == 3:
+    print(f"seu resultado é: {n1 * n2}")
+elif op == 4:
+    print(f"seu resultado é:{n1 / n2}")
+else:
+    print("invalido")
